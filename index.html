@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <span>fokir</span>
+    </div>
+    <nav>
+      <ul>
+        <li class="link home"><a href="#home">home</a></li>
+        <li class="link"><a href="#about">about</a></li>
+        <li class="link"><a href="#services">services</a></li>
+        <li class="link"><a href="#portfolio">portfolio</a></li>
+        <li class="link"><a href="#testimonial">testimonial</a></li>
+        <li class="link"><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- home -->
+  <section class="home-sec" id="home">
+    <div class="txt">
+      <span>hello i'm</span>
+      <h1>mohammed sayed</h1>
+      <p>professional web developer</p>
+    </div>
+  </section>
+  <!-- about -->
+  <section class="about-sec" id="about">
+    <div class="about">
+      <div class="left-about">
+        <figure>
+          <img src="images/person-1.png" alt="">
+        </figure>
+      </div>
+      <div class="right-about">
+        <div class="head">
+          <span>HELLO,</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus tempore atque
+            voluptatum voluptates recusandae reiciendis, eos perspiciatis veritatis, sint et maxime impedit, quas
+            quisquam aliquam? Voluptates atque quas possimus!</p>
+        </div>
+        <div class="info">
+          <p>name: <span>Mohammed Sayed</span></p>
+          <p>title: <span>front-end</span></p>
+          <p>age: <span>20</span></p>
+          <p>location: <span>cairo</span></p>
+          <p>freelance: <span>available</span></p>
+          <p>email: <span>mo@gmail.com</span></p>
+        </div>
+        <div class="contact-links">
+          <a href="#">download cv <i class="fa-solid fa-download"></i></a>
+          <a href="#">hire me <i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+  </section>
+  <!-- services -->
+  <section class="services-sec" id="services">
+    <h2 class="heading">our services</h2>
+    <div class="container">
+      <div class="services">
+        <div class="item">
+          <i class="fa-solid fa-plane" style="transform: rotate(-90deg);"></i>
+          <h2>UI/UX design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad rerum magni maxime</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <h2>UI/UX design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad rerum magni maxime</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-signal"></i>
+          <h2>UI/UX design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad rerum magni maxime</p>
+        </div>
+        <div class="item">
+          <i class="fa-regular fa-address-card"></i>
+          <h2>UI/UX design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad rerum magni maxime</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio -->
+  <section class="portfolio-sec" id="portfolio">
+    <h2 class="heading">our portfolio</h2>
+    <ul class="filter">
+      <li><button type="button" class="active" data-filter="all">all</button></li>
+      <li><button type="button" data-filter="graphic">graphic</button></li>
+      <li><button type="button" data-filter="web">web design</button></li>
+      <li><button type="button" data-filter="brand">branding</button></li>
+    </ul>
+    <div class="items">
+      <div class="item-portfolio brand">
+        <figure>
+          <img src="images/1.jpg" alt="">
+        </figure>
+      </div>
+      <div class="item-portfolio brand">
+        <figure>
+          <img src="images/2.jpg" alt="">
+        </figure>
+      </div>
+      <div class="item-portfolio web">
+        <figure>
+          <img src="images/3.jpg" alt="">
+        </figure>
+      </div>
+      <div class="item-portfolio web">
+        <figure>
+          <img src="images/4.jpg" alt="">
+        </figure>
+      </div>
+      <div class="item-portfolio graphic">
+        <figure>
+          <img src="images/5.jpg" alt="">
+        </figure>
+      </div>
+      <div class="item-portfolio graphic">
+        <figure>
+          <img src="images/6.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- icons -->
+  <section class="icons">
+    <div class="container">
+      <div class="icon">
+        <i class="fa-solid fa-people-group"></i>
+        <span>200</span>
+        <p>team members</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-file"></i>
+        <span>345</span>
+        <p>complete projects</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-download"></i>
+        <span>1800</span>
+        <p>file download</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-code"></i>
+        <span>1200</span>
+        <p>lines code</p>
+      </div>
+    </div>
+  </section>
+  <!-- feedback -->
+  <section class="feedback" id="testimonial">
+    <h2 class="heading">client's feedback</h2>
+    <div class="feed">
+      <figure><img src="images/person-2.jpg" alt=""></figure>
+      <div class="info-feed">
+        <h3>alex anderson</h3>
+        <p><i class="fa-solid fa-location-dot"></i> cairo</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione dolorum alias repellendus? Molestiae
+          iure ducimus eum dolore sint architecto.</p>
+        <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+      </div>
+    </div>
+  </section>
+  <!-- blog -->
+   <section class="blog-sec">
+    <h2 class="heading">our blog</h2>
+    <div class="blogs">
+      <div class="blog">
+        <figure><img src="images/blog-1 .jpg" alt=""></figure>
+        <div class="blog-post">
+          <span>December 28, 2025</span>
+          <h3>web design blog post</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat fugit unde beatae sint, fuga facilis.</p>
+          <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog">
+        <figure><img src="images/blog-2.jpg" alt=""></figure>
+        <div class="blog-post">
+          <span>December 28, 2025</span>
+          <h3>web design blog post</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat fugit unde beatae sint, fuga facilis.</p>
+          <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog">
+        <figure><img src="images/blog-3.jpg" alt=""></figure>
+        <div class="blog-post">
+          <span>December 28, 2025</span>
+          <h3>web design blog post</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat fugit unde beatae sint, fuga facilis.</p>
+          <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="contact-sec" id="contact">
+    <h2 class="heading">contact us</h2>
+    <div class="contact">
+      <form action="">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="email" required>
+        <input type="text" name="subject" placeholder="subject" required>
+        <textarea placeholder="message for me" name="message"></textarea>
+        <button type="submit">send message</button>
+      </form>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-google"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p>Copyright 2025 &copy; by <span>Mohammed Sayed</span> all right reserved</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
